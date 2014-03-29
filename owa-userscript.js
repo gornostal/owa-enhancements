@@ -2,7 +2,7 @@
 // @name       OWA enchancements
 // @website    https://github.com/gornostal/owa-enhancements
 // @match  https://mail.airbiquity.com/owa/*
-// @version    1.0
+// @version    1.1
 // @updateURL https://raw.githubusercontent.com/gornostal/owa-enhancements/master/owa-userscript.js
 // @description  Adds number of unread message to favicon; Adds Archive button to a message frame
 // @copyright  2014+, AG
@@ -44,7 +44,7 @@ function initUnreadMessageBubble() {
     Tinycon.setOptions({
         width: 7,
         height: 10,
-        font: 'bold 10px monospace',
+        font: '10px monospace',
         colour: '#000',
         background: '#fff',
         fallback: false
