@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name       OWA enchancements
-// @website    https://gist.github.com/gornostal/9859070
+// @website    https://github.com/gornostal/owa-enhancements
 // @match  https://mail.airbiquity.com/owa/*
-// @version    0.1
-// @updateURL https://gist.githubusercontent.com/gornostal/9859070/raw/dfed0efd6f37a7489270be6e7dfd33c4d1de14ef/owa-userscript.js
-// @description  Adds number of unread message to favicon; adds more Gmail-like buttons to email
+// @version    1.0
+// @updateURL https://raw.githubusercontent.com/gornostal/owa-enhancements/master/owa-userscript.js
+// @description  Adds number of unread message to favicon; Adds Archive button to a message frame
 // @copyright  2014+, AG
 // @require https://code.jquery.com/jquery.min.js
 // @require https://raw.githubusercontent.com/tommoor/tinycon/master/tinycon.min.js
