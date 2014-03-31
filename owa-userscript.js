@@ -59,7 +59,7 @@ function initUnreadMessageBubble() {
     }
 
     function getUnreadMessageNumber(){
-        return $('#spnCV').text().trim();
+        return $('#spnFldrNm:contains("Inbox")').next().find('#spnCV').text();
     }
 
 }
@@ -74,7 +74,7 @@ function addArchiveButton() {
     }, 500);
 
     $('body').on("keypress", function(e){
-        if(!e.altKey && !e.shiftKey && e.keyCode === 101) {
+        if(e.keyCode === 101 && !e.altKey && !e.shiftKey && !$(e.target).is(':input')) {
             // archive on E keypress
             $('.owa-archive:visible').click();
         }
