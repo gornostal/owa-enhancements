@@ -2,7 +2,7 @@
 // @name       OWA enchancements
 // @website    https://github.com/gornostal/owa-enhancements
 // @match  https://mail.airbiquity.com/owa/*
-// @version    1.1
+// @version    1.2
 // @updateURL https://raw.githubusercontent.com/gornostal/owa-enhancements/master/owa-userscript.js
 // @description  Adds number of unread message to favicon; Adds Archive button to a message frame
 // @copyright  2014+, AG
